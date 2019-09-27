@@ -1,0 +1,9 @@
+{% if list %}
+    <ul>
+    {% for var in list %}
+        <li><a href="{% url 'myexcel:detail' var.id %}">{{ var.project_name }}</a> </li>
+    {% endfor %}
+    </ul>
+{% else %}
+
+{% endif %}
