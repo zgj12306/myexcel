@@ -9,7 +9,7 @@ Click==7.0
 configobj==5.0.6
 cycler==0.10.0
 DateTime==4.3
-Django==2.2.4
+Django==2.2.21
 dpkt==1.9.2
 dss==0.8
 empyrical==0.5.0
